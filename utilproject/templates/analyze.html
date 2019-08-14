@@ -1,0 +1,21 @@
+{% extends 'home.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyzing Your Text...</title>
+</head>
+<body>
+{% block contant %}
+    <div class="container">
+<h1>Your Analyzed Text-{{ purpose }}</h1>
+<p>
+
+    <pre>{{ analyzed_text }}</pre>
+
+{% endblock %}
+
+</p>
+</div>
+</body>
+</html>
